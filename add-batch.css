@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    height: 100vh;
+    display: flex;
+    margin-left: 280px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+h1{
+    font-family: 'Belleza', sans-serif;
+    font-size: 40px;  
+    font-weight: 600;
+}
+.add-new-item-input{
+    margin-top: 15px;
+    position: relative;
+    
+}
+.add-new-item-input i{
+    right: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    
+
+}
+.add-new-item-input i:hover{
+    color: green;
+}
+
+.input-box{
+    width: 581.2px;
+    height: 39px;
+}
+textarea{
+    resize: none;
+}
+.button-container{
+    margin-top: 10px;
+    display: flex;
+  gap: 15px; 
+}
+.button {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+#reset{
+    background: red;
+}
+#submit{
+    background: green;
+}
+.button:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add box shadow on hover */
+}
+.message-box{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+.message-box-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.right-button{
+    margin-left: 10px;
+}
